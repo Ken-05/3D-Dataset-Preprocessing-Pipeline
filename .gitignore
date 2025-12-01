@@ -3,6 +3,18 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Ignore datasets
+ModelNet40/
+ModelNet10/
+*.mat
+*.off
+*.hdf5
+
+# Ignore IDE settings
+.vscode/
+.idea/
+
+
 # C extensions
 *.so
 
